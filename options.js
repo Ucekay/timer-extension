@@ -9,5 +9,5 @@ saveBtn.addEventListener("click", () => {
 });
 
 chrome.storage.sync.get(["name"]).then((res) => {
-  nameInput.value = res.name;
+  nameInput.value = res.name ?? "unknown user";
 });
