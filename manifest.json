@@ -17,5 +17,6 @@
     "default_title": "Timer Extension Action Title",
     "default_popup": "popup.html"
   },
-  "options_page": "optional.html"
+  "options_page": "options.html",
+  "permissions": ["storage"]
 }
